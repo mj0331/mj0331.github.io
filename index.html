@@ -1,12 +1,170 @@
 <html>
 	<head>
 		<title> Marius Ioan Orban - Portofolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lora|Nunito+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="./css/style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div id='page-container'>
-			
+			<div class='banner-container' id='header'>
+				<div class='banner-padded'>
+					<div class='portrait-container'>
+						<img class='portrait' src='./img/portrait.jpg'>
+					</div>
+					<div class='banner-title'>
+						Marius Ioan Orban
+					</div>
+				</div>
+				<div class='nav-container'>
+					<ul>
+						<a href="#about"><li class='nav-item'><i class="fa fa-info" aria-hidden="true"></i> About me</li></a>
+						<a href="#projects"><li class='nav-item'><i class="fa fa-code" aria-hidden="true"></i> Projects</li></a>
+						<a href="#contact"><li class='nav-item'><i class="fa fa-address-card" aria-hidden="true"></i> Get in touch</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class='content-container'>
+				<div class='content-card' id='about'>
+					<div class='card-header'>
+						<div class='card-icon fa fa-info' aria-hidden="true"></div> 
+						<div class='card-title'>
+							<span>About me</span>
+						</div>
+					</div>
+					<div class='card-content'>
+						<div class='card-text'>
+							Hailing from Romania, I create websites, web apps and tools, many of which are gaming related. I also work on my own little games. If you need someone that can manage teams and projects, learns fast and loves to chat about tech, I'm your guy!
+						</div>
+					</div>
+				</div>
+
+				<div class='content-card' id='projects'>
+					<div class='card-header'>
+						<div class='card-icon fa fa-code' aria-hidden="true"></div> 
+						<div class='card-title'>
+							<span>Projects</span>
+						</div>
+					</div>
+					<div class='card-content'>
+						<div class='card-subtitle'>
+							<span>Websites</span>
+						</div>
+						<div class='display-container'>
+							<div class='display-item'>
+								<div class='display-thumb'>
+									<img src='./img/coc.png'>
+								</div>
+								<div class='display-item-column'>
+									<div class='display-item-description'>
+										I built the website for Clash of Comrades, a bi-monthly tournament for players of the game Tooth and Tail, which is currently being developed by Pocketwatch Games. I also help with organising tournaments for Clash of Comrades. The website has a node backend powered by express.js, uses the Jade(now called Pug) templating engine for generating the HTML and does not use any 3rd party CSS frameworks.
+									</div>
+									<a target='_blank' href='http://www.clashofcomrades.com/'>
+										<div class='display-item-button'>
+											Visit the site
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class='display-item'>
+								<div class='display-thumb'>
+									<img src='./img/porto.png'>
+								</div>
+								<div class='display-item-column'>
+									<div class='display-item-description'>
+										"Hey, this looks familiar!" Yup, even tough is not much, I decided to go ahead and include the portofolio web page I made as well, as I'm pretty proud of it. Built from scratch with nothing but HTML and CSS, no 3rd party stuff.
+									</div>
+									<a target='_blank' href='#' onclick='alert("Really?");'>
+										<div class='display-item-button'>
+											Visit the site
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class='card-subtitle'>
+							<span>Node</span>
+						</div>
+						<div class='display-container'>
+							<div class='display-item'>
+								<div class='display-item-column'>
+									<div class='card-subtitle'>
+										<span>Pocketbot</span>
+									</div>
+									<div class='display-item-description'>
+										Pocketbot is a powerful chat bot built for Pocketwatch Game's Discord server. From dice rolls to votebans and rewarding users with game keys to command specific 'personas' via it's custom command framework, there isn't much Pocketbot can't be made to do. For this project I worked toghether with other community members to make this bot a reality. I took care of the command framework and the commands under the 'Ryionbot' group
+									</div>
+									<a target='_blank' href='https://gitlab.com/pocketrangers/pocketbot'>
+										<div class='display-item-button'>
+											View repo
+										</div>
+									</a>
+								</div>
+								<div class='display-item-column'>
+									<div class='card-subtitle'>
+										<span>Ryionbot</span>
+									</div>
+									<div class='display-item-description'>
+										Ryionbot is the first chat bot for Discord I made, and I used this opportunity to learn what the API can do. Many of Ryionbot's functions can be found in Pocketbot today
+									</div>
+									<a target='_blank' href='https://bitbucket.org/mj0331/ryionbot'>
+										<div class='display-item-button'>
+											View repo
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class='card-subtitle'>
+							<span>Tools</span>
+						</div>
+						<div class='display-container'>
+							<div class='display-item'>
+								<div class='display-item-column'>
+									<div class='card-subtitle'>
+										<span>Tooth and Tail Mod Manager</span>
+									</div>
+									<div class='display-item-description'>
+										A small mod management and packing utility, meant to make sharing mods between players much easier. While it was made for Tooth and Tail, it can be easily extended to work for other games. This project is no longer maintained.
+									</div>
+									<a target='_blank' href='https://github.com/mj0331/modmanager'>
+										<div class='display-item-button'>
+											View repo
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='content-card' id='contact'>
+					<div class='card-header'>
+						<div class='card-icon fa fa-address-card' aria-hidden="true"></div> 
+						<div class='card-title'>
+							<span>Where to find me</span>
+						</div>
+					</div>
+					<div class='card-content'>
+						<div class='card-text'>
+							Whether it's business or just wanna chat with me about tech, video games, music or whatever else, you can find me at any of the following:
+						</div>
+						<div class='social-container'>
+							<ul>
+								<a target="_blank" href="https://github.com/mj0331"><li class='social-item'><i class="fa fa-github" aria-hidden="true"></i></li></a>
+								<a target="_blank" href="https://gitlab.com/marius.orban99"><li class='social-item'><i class="fa fa-gitlab" aria-hidden="true"></i></li></a>
+								<a target="_blank" href="https://bitbucket.org/mj0331/"><li class='social-item'><i class="fa fa-bitbucket" aria-hidden="true"></i></li></a>
+								<a target="_blank" href="https://www.linkedin.com/in/marius-orban-8208969b"><li class='social-item'><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+								<a target="_blank" href="https://twitter.com/marius0331"><li class='social-item'><i class="fa fa-twitter" aria-hidden="true"></i></i></li></a>
+								<a target="_blank" href="https://www.twitch.tv/mj0331"><li class='social-item'><i class="fa fa-twitch" aria-hidden="true"></i></li></a>
+								<a target="_blank" href="https://www.youtube.com/channel/UClO9P0YgDQPOZ9_IZp1Xe2w"><li class='social-item'><i class="fa fa-youtube" aria-hidden="true"></i></li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

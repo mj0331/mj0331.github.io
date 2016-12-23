@@ -15,10 +15,10 @@ a{
 
 .banner-container{
 	width: 100%;
-	background: rgb(22, 68, 4);
+	background: #17b890;
 	display: flex;
 	flex-wrap: wrap;
-	border-bottom: 1px solid rgb(22, 68, 4);
+	border-bottom: 1px solid #17b890;
 	z-index: 2em;
 }
 
@@ -46,7 +46,7 @@ a{
 	flex-grow: 4;
 	height: 6em;
 	background: rgb(255, 255, 255);
-	color: rgb(22, 68, 4);
+	color: #17b890;
 }
 
 .nav-container ul{
@@ -61,12 +61,12 @@ a{
 
 .nav-item{
 	border: 2px solid rgb(255, 255, 255);
-	color: rgb(22, 68, 4);
+	color: #17b890;
 	transition: 0.3s;
 }
 
 .nav-item:hover{
-	border-bottom-color: rgb(22, 68, 4);
+	border-bottom-color: #17b890;
 }
 
 .content-container{
@@ -77,7 +77,7 @@ a{
 
 .content-card{
 	margin: 3em 0;
-	background-color: rgb(230, 230, 230);
+	background-color: #dee5e5;
 	color: #222222;
 	padding: 2em;
 }
@@ -85,8 +85,8 @@ a{
 .card-header{
 	display: flex;
 	font-size: 2.5em; 
-	border-bottom: 3px solid rgb(22, 68, 4);
-	color: rgb(22, 68, 4);
+	border-bottom: 3px solid #9dc5bb;
+	color: #17b890;
 }
 
 .card-title{
@@ -131,16 +131,16 @@ a{
 .display-item-button{
 	margin: 2em auto;
 	padding: 1em;
-	background-color: rgb(22, 68, 4);
+	background-color: #17b890;
 	color: white;
-	border: 1px solid rgb(22, 68, 4);
+	border: 1px solid #17b890;
 	transition: 0.3s;
 	text-align: center;
 }
 
 .display-item-button:hover{
 	background-color: white;
-	color: rgb(22, 68, 4);
+	color: #17b890;
 }
 
 .display-thumb img{
@@ -157,7 +157,7 @@ a{
 
 .social-container{
 	flex-grow: 4;
-	color: rgb(22, 68, 4);
+	color: #17b890;
 }
 
 .social-container ul{
@@ -170,10 +170,10 @@ a{
 }
 
 .social-item{
-	border: 1px solid rgb(22, 68, 4);
+	border: 1px solid #9dc5bb;
 	border-radius: 50%;
 	padding: 0.9em 1em;
-	color: rgb(22, 68, 4);
+	color: #17b890;
 	transition: 0.3s;
 	text-align: center;
 	margin-top: 2em;
